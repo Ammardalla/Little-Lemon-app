@@ -1,0 +1,354 @@
+body {
+  margin: 0;
+  font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Markazi Text', source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+#main-nav{
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+#main-nav ul{
+  list-style: none;
+  display: flex;
+  margin: auto;
+  gap: 30px;
+}
+.dekor{
+  text-decoration: none;
+  color: black;
+  padding: 0 6%;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+#main-nav ul li .active {
+background-color: #E7E5E5; 
+border-bottom: 4px double #000000;
+border-radius: 10px;
+}
+#main-nav ul li:hover{
+    transform: scale(1.3);
+
+}
+#logo{
+  margin: 3%;
+  margin-left: auto;
+  height: 69.2px;
+  width: 260px;
+}
+/* Header CSS */
+header{
+  background-color: #495E57;
+  margin-bottom: 60px;
+}
+h1{
+  font-family: 'Markazi Text';
+  font-size: 64px;
+  color: #F4CE14;
+  margin: 0;
+  padding-top: 20px;
+}
+#header-h2{
+  font-family: 'Markazi Text';
+  font-size: 40px;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+h3{
+  font-family: 'Markazi Text';
+  font-size: 28px;
+  color: white;
+}
+#header-button{
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 12px;
+  border-width: 0;
+  width: 190px;
+  height: 49.5px;
+  background-color: #F4CE14;
+  margin-bottom: 30px;
+}
+#headImg{
+  height: 429.97px;
+  width: 405.92px;
+  position: absolute;
+  top: 28%;
+  right: 0;
+  margin-right: 8%;
+  border-radius: 12px;
+}
+#headInf{
+  margin-left: 14%;
+}
+img{
+  height: 198.49px;
+  width: 274.78px;
+  border-radius: 24px 24px 0 0;
+}
+/*Highlights component CSS */
+ #main-specials{
+  display: flex;
+  gap: 3%;
+  margin-left: 18%;
+}
+.specials{
+  width: 274.78px;
+  height: 460.94px;
+  background-color: #E7E5E5;
+  border-radius: 24px 24px 0 0;
+}
+#main-div{
+  margin-left: 14%;
+  display: flex;
+  gap: 16%;
+  align-items: center;
+  align-content: center;
+}
+#header-p{
+  font-family: 'Markazi Text';
+  font-weight: bolder;
+  font-size: 64px;
+  margin-bottom: 6%;
+}
+#highlights-button{
+    font-size: 26px;
+  font-weight: bold;
+  letter-spacing: 3%;
+  border-radius: 20px;
+  border-width: 0;
+  width: 229.78px;
+  height: 72.33px;
+  background-color: #F4CE14;
+  margin-bottom: 4%;
+}
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 8%;
+  font-weight: bold;
+}
+
+.item-price {
+  color: red;
+  font-weight: bold;
+}
+p{
+  font-family: 'Markazi Text';
+  margin: 20px;
+}
+/* testimonial CSS */
+#testimonial-main{
+  margin-top: 8%;
+  background-color: #495E57;
+  height: 90vh;
+}
+#testimonial-h{
+  text-align: center;
+  padding: 6%;
+}
+#persons{
+  margin: auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  gap: 0;
+}
+.person{
+  margin: 0;
+  background-color: #E7E5E5;
+  width: 18vw;
+  border-radius: 6px;
+}
+.person img{
+  width: 8vw;
+  height: 12vh;
+  border-radius: 0;
+  margin-left: 3%;
+}
+.person-name{
+  font-family: 'Markazi Text';
+  font-size: large;
+  text-align: center;
+  margin: 3%;
+  position: absolute;
+}
+/* About CSS */
+#about{
+  width: 100%;
+  height: 90vh;
+}
+#about-h2{
+  color: black;
+}
+#about-h3{
+  color: black;
+  width: 30vw;
+  text-align: justify;
+}
+#about-info{
+  margin-top: 3%;
+  margin-left: 8%;
+}
+#about-img{
+  border-radius: 0;
+  position: absolute;
+  right: 25%;
+  top: 310%;
+  height: 280px;
+  width: 284px;
+  border-radius: 16px 16px 0;
+}
+#about-img2{
+  border-radius: 0;
+  position: absolute;
+  right: 10%;
+  top: 330%;
+  height: 280px;
+  width: 284px;
+  border-radius: 16px;
+}
+/* Menu CSS */
+#menu-h1{
+  text-align: center;
+}
+#menu-p{
+  text-align: center;
+  font-size: x-large;
+  font-weight: bolder;
+  margin-bottom: 3%;
+}
+.menu-navbar ul{
+  list-style: none;
+  margin: auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  gap: 0;
+  margin-bottom: 10%;
+}
+.menu-link{
+  text-align: center;
+  border-radius: 16px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: large;
+  font-weight: bold;
+  display: block;
+  width: 200px;
+  height: 30px;
+  padding: 10% 10%;
+  background-color: #495E57;
+}
+.menu-link:hover{
+  transform: scale(1.2);
+}
+.menu-link:visited{
+  color: #F4CE14;
+}
+#back-btn {
+  padding: 8px 16px;
+  border: none;
+  background-color: #000000;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#back-btn:hover {
+  background-color: #0056b3;
+}
+.menu-meal-h1{
+  text-align: center;
+}
+.meal{
+  margin: 3% auto;
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: justify;
+  background-color: #E7E5E5;
+  border-radius: 24px;
+}
+.meal-h2{
+  width: 100%;
+  text-align: center;
+  margin-left: 10%;
+}
+.meal-span{
+  text-align: center;
+  width: 100%;
+  color: red;
+  margin-left: 10%;
+  font-weight: bold;
+}
+.meal-img{
+  border-radius: 24px;
+}
+/* Reservation CSS */
+#reserv-form{
+  width: 45vw;
+  height: 100vh;
+  margin: auto;
+  background-color: #fff;
+  display: grid;
+  grid-template: auto;
+  row-gap: 2%;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  transform: perspective(1000px) rotateX(2deg);
+  margin-bottom: 5%;
+}
+/* Footer CSS */
+#footer{
+  height: 45vh;
+  display: flex;
+  justify-content: space-between;
+  background-color: #E7E5E5;
+}
+#img-footer{
+  width: 15%;
+  height: 90%;
+  margin: 2%;
+  border-radius: 0;
+}
+.footer-div{
+  margin: 2%;
+  width: auto;
+}
+.footer-div h2{
+  font-weight: bold;
+  font-size: medium;
+  text-align: center;
+}
+#footer-nav{
+  list-style: none;
+}
+/* تصميم رسائل الخطأ */
+.error {
+  color: red;           /* يجعل النص أحمر */
+  font-size: 0.9rem;    /* حجم خط مناسب */
+  margin-top: 0.25rem;  /* مسافة صغيرة فوق الرسالة */
+  margin-bottom: 0.5rem;/* مسافة أسفل الرسالة */
+}
+button:hover{
+  cursor: pointer;
+}
+.not{
+  text-align: center;
+  margin: 6%;
+}
