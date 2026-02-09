@@ -2,7 +2,7 @@ import React from "react";
 
 function BookingSlot({ timeObj }) {
   const style = {
-    padding: "10px",
+    padding: "6px",
     border: "1px solid gray",
     cursor: timeObj.booked ? "not-allowed" : "pointer",
     backgroundColor: timeObj.booked ? "#f8d7da" : "#d4edda", // أحمر للوقت المحجوز، أخضر للمتاح

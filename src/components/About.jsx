@@ -18,8 +18,8 @@ function About() {
       we create food made with passion
       and tradition.</h3>
       </div>
-      <img id="about-img2" src="/img/Mario and Adrian B.jpg" alt="An athor photo for the restaurant owner Mario and Areaian"></img>
-      <img id="about-img" src="/img/Mario and Adrian A.jpg" alt="A photo for the restaurant owner Mario and Areaian"></img>
+      <img id="about-img2" src={`${process.env.PUBLIC_URL}/img/MarioandAdrianB.jpg`} alt="An athor photo for the restaurant owner Mario and Areaian"></img>
+      <img id="about-img" src={`${process.env.PUBLIC_URL}/img/MarioandAdrianA.jpg`} alt="A photo for the restaurant owner Mario and Areaian"></img>
     </section>
   );
 }

@@ -13,7 +13,7 @@ function Highlights() {
     </div>
     <div id="main-specials">
     <div className="specials">
-      <img src="/img/greek salad.jpg" alt="greek salad" />
+      <img src={`${process.env.PUBLIC_URL}/img/greek salad.jpg`} alt="greek salad" />
       <div class="menu-item">
         <span class="item-name">Greek Salad</span>
         <span class="item-price">$12.99</span>
@@ -27,7 +27,7 @@ function Highlights() {
       <p>Order a delivery  +1</p>
     </div>
         <div className="specials">
-      <img src="/img/5a56cb0a6cea7dd9e4260ae87b268bd3eee8527d.jpg" alt="Brucheta" />
+      <img src={`${process.env.PUBLIC_URL}/img/5a56cb0a6cea7dd9e4260ae87b268bd3eee8527d.jpg`} alt="Brucheta" />
       <div class="menu-item">
         <span class="item-name">Brucheta</span>
         <span class="item-price">$5.99</span>
@@ -40,7 +40,7 @@ function Highlights() {
       <p>Order a delivery  +1</p>
     </div>
             <div className="specials">
-      <img src="/img/lemon dessert.jpg" alt="lemon dessert" />
+      <img src={`${process.env.PUBLIC_URL}/img/lemon dessert.jpg`} alt="lemon dessert" />
       <div class="menu-item">
         <span class="item-name">Lemone desert</span>
         <span class="item-price">$5.00</span>

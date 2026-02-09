@@ -14,7 +14,7 @@ function Breakfast(){
             mixed with spinach and parmesan.<br/>
             Cherry tomatoes are added for flavor<br/>
             and seasoned lightly with salt and pepper.</p>
-            <img src="/img/Frittata.jpg" alt="Frittata" className="meal-img"/>
+            <img src={`${process.env.PUBLIC_URL}/img/Frittata.jpg`} alt="Frittata" className="meal-img"/>
           </div>
           <div className="meal">
             <div>
@@ -25,7 +25,7 @@ function Breakfast(){
             and filled with jam or chocolate.<br/>
             It is soft inside and golden outside.<br/>
             Perfect with a morning coffee.</p>
-            <img src="/img/Cornetto.WEBP" alt="Cornetto" className="meal-img"/>
+            <img src={`${process.env.PUBLIC_URL}/img/Cornetto.webp`} alt="Cornetto" className="meal-img"/>
           </div>
           <div className="meal">
             <div>
@@ -36,7 +36,7 @@ function Breakfast(){
               topped with fresh mozzarella and tomatoes.<br/>
               A sprinkle of basil and olive oil<br/>
               makes it refreshing and light.</p>
-            <img src="/img/Caprese.jpg" alt="Caprese" className="meal-img"/>
+            <img src={`${process.env.PUBLIC_URL}/img/Caprese.jpg`} alt="Caprese" className="meal-img"/>
           </div>
           <div className="meal">
             <div>
@@ -47,7 +47,7 @@ function Breakfast(){
               topped with fresh mozzarella and tomatoes.<br/>
               A sprinkle of basil and olive oil<br/>
               makes it refreshing and light.</p>
-            <img src="/img/ItalianYogurt.jpg" alt="ItalianYogurt" className="meal-img"/>
+            <img src={`${process.env.PUBLIC_URL}/img/ItalianYogurt.jpg`} alt="ItalianYogurt" className="meal-img"/>
           </div>
 
         </section>

@@ -14,7 +14,7 @@ function Dessert(){
             and layered with mascarpone cheese.<br/>
             Dusting of cocoa<br/>
             makes this dessert rich and creamy.</p>
-            <img src="/img/Tiramisu.jpg" alt="Tiramisu" className="meal-img"/>
+            <img src={`${process.env.PUBLIC_URL}/img/Tiramisu.jpg`} alt="Tiramisu" className="meal-img"/>
           </div>
           <div className="meal">
             <div>
@@ -25,7 +25,7 @@ function Dessert(){
             with gelatin and vanilla.<br/>
             Berry sauce is drizzled on top,<br/>
             making it smooth and sweet.</p>
-            <img src="/img/PannaCotta.jpg" alt="Panna Cotta" className="meal-img"/>
+            <img src={`${process.env.PUBLIC_URL}/img/PannaCotta.jpg`} alt="Panna Cotta" className="meal-img"/>
           </div>
           <div className="meal">
             <div>
@@ -36,7 +36,7 @@ function Dessert(){
             with sweet ricotta and chocolate chips.<br/>
             They are crunchy on the outside<br/>
             and creamy inside.</p>
-            <img src="/img/Cannoli.jpg" alt="Cannoli" className="meal-img"/>
+            <img src={`${process.env.PUBLIC_URL}/img/Cannoli.jpg`} alt="Cannoli" className="meal-img"/>
           </div>
           <div className="meal">
             <div>
@@ -47,7 +47,7 @@ function Dessert(){
             like vanilla, chocolate, pistachio, and strawberry.<br/>
             It is creamy, rich,<br/>
             and perfect for a refreshing treat.</p>
-            <img src="/img/Gelato.WEBP" alt="Gelato" className="meal-img"/>
+            <img src={`${process.env.PUBLIC_URL}/img/Gelato.webp`} alt="Gelato" className="meal-img"/>
           </div>
 
         </section>

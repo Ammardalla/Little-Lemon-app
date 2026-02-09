@@ -19,7 +19,7 @@ function Header(){
                 </h3>
                 <button id="header-button" onClick={goToBooking}>Reserve a Table</button>
             </div>
-            <img src="/img/restauranfood.jpg" alt="a cheif holds restauranfood" id="headImg"/>
+            <img src={`${process.env.PUBLIC_URL}/img/restauranfood.jpg`} alt="a cheif holds restauranfood" id="headImg"/>
         </header>
     );
 }

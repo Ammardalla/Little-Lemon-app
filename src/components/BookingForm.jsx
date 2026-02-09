@@ -109,7 +109,7 @@ function BookingForm({ availableTimes, dispatch, submitForm }) {
 
   return (
     <form id="reserv-form" onSubmit={handleSubmit}>
-      <h2>Please fill out the following form to reserve a table:</h2>
+      <h2 id="form-h2">Please fill out the following form to reserve a table:</h2>
 <label htmlFor="occasion">Occasion</label>
       <select name="occasion" id="occasion" value={formData.occasion} onChange={handleChange} onBlur={handleBlur} required>
         <option value="">Choose occasion</option>

@@ -14,7 +14,7 @@ function Lunch(){
             and mixed with crispy pancetta.<br/>
             A touch of black pepper<br/>
             finishes this classic Italian dish.</p>
-            <img src="/img/Spaghetti.jpg" alt="Spaghetti Carbonara" className="meal-img"/>
+            <img src={`${process.env.PUBLIC_URL}/img/Spaghetti.jpg`} alt="Spaghetti Carbonara" className="meal-img"/>
           </div>
           <div className="meal">
             <div>
@@ -25,7 +25,7 @@ function Lunch(){
             spread with tomato sauce and mozzarella.<br/>
             Fresh basil and a drizzle of olive oil<br/>
             make it simple and delicious.</p>
-            <img src="/img/Margherita.jpg" alt="Margherita Pizza" className="meal-img"/>
+            <img src={`${process.env.PUBLIC_URL}/img/Margherita.jpg`} alt="Margherita Pizza" className="meal-img"/>
           </div>
           <div className="meal">
             <div>
@@ -36,7 +36,7 @@ function Lunch(){
             with rich beef ragu and creamy béchamel sauce.<br/>
             Parmesan cheese is sprinkled on top<br/>
             for a golden finish.</p>
-            <img src="/img/Lasagna-al-Forno.jpg" alt="Lasagna al Forno" className="meal-img"/>
+            <img src={`${process.env.PUBLIC_URL}/img/Lasagna-al-Forno.jpg`} alt="Lasagna al Forno" className="meal-img" id="img-lunch"/>
           </div>
           <div className="meal">
             <div>
@@ -47,7 +47,7 @@ function Lunch(){
             with beans and pasta.<br/>
             Olive oil and herbs add flavor,<br/>
             making it light but filling.</p>
-            <img src="/img/MinestroneSoup.jpg" alt="Minestrone Soup" className="meal-img"/>
+            <img src={`${process.env.PUBLIC_URL}/img/MinestroneSoup.jpg`} alt="Minestrone Soup" className="meal-img"/>
           </div>
 
         </section>

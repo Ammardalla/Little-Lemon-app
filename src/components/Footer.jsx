@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Footer(){
     return(
         <section id="footer">
-        <img id="img-footer" src="/img/little-lemon-yellow-logo3.png" alt="/little-lemon-logo" />
+        <img id="img-footer" src={`${process.env.PUBLIC_URL}/img/little-lemon-yellow-logo3.png`} alt="/little-lemon-logo" />
         <div className="footer-div">
         <nav>
             <h2>Nav Bar</h2>
@@ -25,9 +25,9 @@ function Footer(){
         </div>
         <div className="footer-div">
             <h2>Social-Media Links</h2>
-            <p>Facebook: https://www.facebook.com/LittleLemonChicago</p>
-            <p>Instagram: https://www.instagram.com/LittleLemonChicago</p>
-            <p>TikTok: https://www.tiktok.com/@LittleLemonChicago</p>
+            <p>Facebook:  https : //www.facebook.com/LittleLemonChicago</p>
+            <p>Instagram: https : //www.instagram.com /LittleLemonChicago</p>
+            <p>TikTok: https : //www.tiktok.com/@LittleLemonChicago</p>
         </div>
     </section>
     );

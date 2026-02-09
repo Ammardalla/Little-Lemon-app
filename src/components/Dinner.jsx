@@ -14,7 +14,7 @@ function Dinner(){
             with fresh mushrooms and onion.<br/>
             Parmesan and butter<br/>
             add richness and depth.</p>
-            <img src="/img/risotto.WEBP" alt="risotto" className="meal-img"/>
+            <img src={`${process.env.PUBLIC_URL}/img/risotto.webp`} alt="risotto" className="meal-img"/>
           </div>
           <div className="meal">
             <div>
@@ -25,7 +25,7 @@ function Dinner(){
             in white wine and tomato sauce.<br/>
             Fresh herbs and gremolata<br/>
             give it a classic flavor.</p>
-            <img src="/img/osso-buco.jpg" alt="osso buca" className="meal-img"/>
+            <img src={`${process.env.PUBLIC_URL}/img/osso-buco.jpg`} alt="osso buca" className="meal-img"/>
           </div>
           <div className="meal">
             <div>
@@ -36,7 +36,7 @@ function Dinner(){
             and clams cooked in garlic and olive oil.<br/>
             It is light, fresh,<br/>
             and full of ocean flavor.</p>
-            <img src="/img/Seafood-linguine.jpg" alt="Seafood linguine" className="meal-img"/>
+            <img src={`${process.env.PUBLIC_URL}/img/Seafood-linguine.jpg`} alt="Seafood linguine" className="meal-img"/>
           </div>
           <div className="meal">
             <div>
@@ -47,7 +47,7 @@ function Dinner(){
             with tomato sauce and mozzarella.<br/>
             Parmesan and fresh basil<br/>
             finish this hearty vegetarian dish.</p>
-            <img src="/img/Eggplant-parmigiana.jpg" alt="Eggplant Parmigiana" className="meal-img"/>
+            <img src={`${process.env.PUBLIC_URL}/img/Eggplant-parmigiana.jpg`} alt="Eggplant Parmigiana" className="meal-img"/>
           </div>
 
         </section>

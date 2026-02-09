@@ -58,15 +58,15 @@ function BookingPage() {
 
   return (
     <div style={{ padding: "2rem" }}>
-      <h1>Reserve a Table</h1>
+      <h1 id="form-h1">Reserve a Table</h1>
       <BookingForm
         availableTimes={availableTimes}
         dispatch={dispatch}
         submitForm={submitForm}
       />
 
-      <h2>Available Times</h2>
-      <ul style={{ display: "flex", gap: "1rem", listStyle: "none", padding: 0 }}>
+      <h2 id="slot-h2">Available Times</h2>
+      <ul id="slot-ul">
         {availableTimes.map(t => (
           <BookingSlot key={t.time} timeObj={t} />
         ))}

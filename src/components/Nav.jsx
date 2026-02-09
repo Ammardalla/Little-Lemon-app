@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 function Nav(){
     return(
         <nav id="main-nav">
-            <img src="/img/logo.jpg" alt="The logo for the little lemon restaurant" id="logo" />
+            <img src={`${process.env.PUBLIC_URL}/img/logo.jpg`} alt="The logo for the little lemon restaurant" id="logo" />
             <ul>
                 <li>
                 <NavLink
