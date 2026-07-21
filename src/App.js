@@ -18,7 +18,7 @@ import NotCooded1 from './pages/NotCooded1';
 function App() {
   return (
     <>
-    <BrowserRouter basename="/Little-Lemon-app">
+    <BrowserRouter>
       <Nav/>
       <Header/>
       <Routes>
